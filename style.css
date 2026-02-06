@@ -1,73 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardik | Student Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-    background: #f2f2f2;
-    color: #333;
-}
+    <div class="card">
+        <h1>Hi, I'm Hardik 👋</h1>
+        <p class="subtitle">Student of Standard 7</p>
 
-nav {
-    background: #111;
-    color: white;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Hardik is a student of Standard 7. He is currently studying at Z2M with Dhruv Sir.
+                He enjoys drawing, creating new things, and playing games.
+                He also likes learning creative and fun activities.
+            </p>
+        </section>
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
+        <section>
+            <h2>Interests</h2>
+            <ul>
+                <li>🎨 Drawing & Creativity</li>
+                <li>🎮 Playing Games</li>
+                <li>⚽ Football</li>
+                <li>🏏 Cricket</li>
+            </ul>
+        </section>
 
-nav a {
-    color: white;
-    text-decoration: none;
-}
+        <section>
+            <h2>Learning Journey</h2>
+            <p>
+                His studies are going very well. He enjoys working with Dhruv Sir because he explains
+                concepts in a clear and simple way. Many of his earlier mistakes are now cleared,
+                making tasks easier and helping him bring new ideas into his life.
+            </p>
+        </section>
 
-.hero {
-    text-align: center;
-    padding: 4rem 1rem;
-    background: #4a90e2;
-    color: white;
-}
+        <footer>
+            <p>🚀 Created by Hardik | Learning & Growing</p>
+        </footer>
+    </div>
 
-.hero button {
-    margin-top: 1rem;
-    padding: 0.7rem 1.5rem;
-    border: none;
-    background: white;
-    color: #4a90e2;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    padding: 2rem;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.box {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #111;
-    color: white;
-}
+</body>
+</html>
